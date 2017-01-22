@@ -23,7 +23,7 @@ RDEPEND="
 	cpl? ( dev-libs/libxml2 )
 	b2bua? ( dev-libs/libxml2 )
 	presence? ( dev-libs/libxml2 )
-	unixodbc? ( dev-libs/unixodbc-2.2.6 )"
+	unixodbc? ( >=dev-libs/unixodbc-2.2.6 )"
 
 inc_mod=""
 make_options=""
