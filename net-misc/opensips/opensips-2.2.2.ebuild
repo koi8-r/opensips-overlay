@@ -11,8 +11,8 @@ SRC_URI="http://opensips.org/pub/opensips/${PV}/src/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86"
-IUSE="debug ipv6 mysql postgres radius jabber ssl cpl unixodbc"
+KEYWORDS="~amd64 ~x86"
+IUSE="debug ipv6 mysql postgres radius jabber ssl cpl b2bua presence unixodbc"
 
 RDEPEND="
 	mysql? ( >=dev-db/mysql-4.1.20 )
