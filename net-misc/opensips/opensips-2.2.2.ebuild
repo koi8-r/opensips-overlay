@@ -56,7 +56,7 @@ pkg_setup() {
 }
 
 src_unpack() {
-	unpack ${MY_P}.tar.gz
+	unpack ${P}.tar.gz
 
 	cd ${S}
 	use ipv6
